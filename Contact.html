@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college </title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="index.html"> <img src="image/eduford_img/logo.png" alt=""></a>
+    <div class="nav-link" id="navlink">
+        <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+
+    </div>
+    <i class="fa fa-bars"  onclick="openmenu()" ></i>
+</nav>
+<h1>Contact Us </h1>
+    </section>
+
+ 
+
+
+
+<!-----Contact Us page  -->
+
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57490.98151421689!2d84.11410159578371!3d25.764407860553288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399264de6d336a87%3A0xd8d5251dac89a330!2sBallia%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1623466019539!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="ct-us">
+    <div class="row">
+        <div class="ct-col">
+            <div>
+                <i class="fa fa-home" ></i>
+                <span>
+                    <h5>XYZ Road, ABC Building</h5>
+                    <p>Uttar-Pradesh, Ballia, IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone" ></i>
+                <span>
+                    <h5>+91 0123456789</h5>
+                    <p>Monday to saturday , 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o" ></i>
+                <span>
+                    <h5>info@EduFord.com</h5>
+                    <p>Email Us for Queiry</p>
+                </span>
+            </div>
+        </div>
+        <div class="ct-col">
+           
+            <form action="">
+                <input type="text"  placeholder="Enter your Name" required>
+                <input type="email"  placeholder="Enter your address" required>
+                <input type="text"  placeholder="Enter your Subject" required>
+                <textarea name=""  rows="8" placeholder="Message" required></textarea>
+                <button type="submit"  class="h-btn  abt-btn" >Send Message</button>
+            </form>
+
+
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!----footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laborum perspiciatis, qui in ipsam quibusdam ad eum eaque officiis Lorem <br> ipsum dolor sit amet consectetur adipisicing elit. Ipsa, laudantium!</p>
+
+    <div class="icon">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+    <p>Made By <i class="fa fa-heart-o" ></i> Ashish Verma </p>
+</section>
+
+
+
+
+
+    <!--javascript for menu-->
+    <Script>
+        var navlink = document.getElementById("navlink");
+        
+        function openmenu(){
+            navlink.style.right="0";
+        }
+        function hidemenu(){
+            navlink.style.right="-200px";
+        }
+        
+    </Script>
+</body>
+</html>
